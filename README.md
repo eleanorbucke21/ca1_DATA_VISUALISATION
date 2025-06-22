@@ -38,10 +38,41 @@ This project explores and visualizes customer reviews from the Amazon Kindle Sto
 
 ---
 
-## 📊 Sample Insights
-- Most reviews tend to be 4 or 5 stars, suggesting generally positive sentiment.
-- A small number of users contribute a large volume of reviews.
-- The distribution of ratings is skewed positively.
+## 📊 Exploratory Data Analysis & Visualisation
+
+The EDA and visualisation process helped uncover key trends, clean outliers, and visually communicate insights from the dataset. Using libraries like `seaborn` and `matplotlib`, all visuals were styled for clarity, using color-coding and figure sizing.
+
+---
+
+### 📉 Missing Values Before and After Cleaning  
+This bar chart shows missing values across columns before and after cleaning. Most problematic columns were dropped, and 'tbd' values were handled.  
+<img src="https://github.com/user-attachments/assets/cff353ae-328e-4969-9b40-76a5158a4d17" alt="Missing Values Chart" width="500"/>
+
+
+---
+
+### 🧮 Dataset Shape Comparison  
+The dataset had 16,719 rows before cleaning and 16,663 after. Several columns were dropped to retain only relevant and usable data.  
+<img src="https://github.com/user-attachments/assets/8975ab63-f451-4d39-adf8-e4c7332aa134" alt="Shape Before and After" width="500"/>
+
+---
+
+### 🎯 User Score Breakdown (Before Cleaning)  
+This bar chart shows how many `User_Score` entries were valid versus placeholders like 'tbd'.  
+<img src="https://github.com/user-attachments/assets/aa5cb51a-3445-47b2-b19d-7b9fa374fdb1" alt="User Score Breakdown" width="500"/>
+
+---
+
+### 🗂️ Columns Kept vs Dropped  
+Visual representation of which columns were retained (green) and which were dropped (red) after cleaning.  
+<img src="https://github.com/user-attachments/assets/8a5bf895-ab62-4d64-830f-9818ef011fc7" alt="Dropped Columns" width="500"/>
+
+
+---
+
+### 🔥 Correlation Heatmap  
+This visual highlights correlations between numeric features. Global Sales show strong relationships with NA Sales and EU Sales. Critic and User metrics are moderately correlated.  
+<img src="https://github.com/user-attachments/assets/e8eb85b1-f37e-47f8-98db-c197a8b7af5e" alt="Correlation Heatmap" width="500"/>
 
 ---
 
