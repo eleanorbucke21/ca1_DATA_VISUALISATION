@@ -45,6 +45,17 @@ This project explores and visualizes customer reviews from the Amazon Kindle Sto
 
 ---
 
+## ❓ Project Questions & Answers
+
+| Question | Answer | Visualisation |
+|---------|--------|---------------|
+| **Q1: What are the top 5 games by global sales?** | The top 5 games are:<br>1. Wii Sports<br>2. Super Mario Bros.<br>3. Mario Kart Wii<br>4. Wii Sports Resort<br>5. Pokémon Red/Pokémon Blue | <img src="https://github.com/user-attachments/assets/9d395f6c-3190-4156-b903-90442103a0ff" alt="top_5_games_by_global_sales" width="300"/> |
+| **Q2: What is the distribution of the most popular 4 game genres?** | The most common genres are:<br>- Action (37.7%)<br>- Sports (26.3%)<br>- Misc (19.3%)<br>- Role-Playing (16.8%) | <img src="https://github.com/user-attachments/assets/9d9f8de3-b44e-40cd-b6b9-15abfaedf6c1" alt="distribution_top_4_game_genres" width="300"/> |
+| **Q3: Do older games (2005 and earlier) have a higher mean “eu_sales” than newer games?** | Yes. Older games show slightly higher mean EU sales compared to newer titles, possibly due to market saturation or longer shelf life. | <img src="https://github.com/user-attachments/assets/ca122f04-7031-4d36-b939-8dfaf4607423" alt="mean_eu_sales_by_era" width="300"/> |
+| **Q4: What are the 3 most common developer names in the dataset?** | The most frequent developers are:<br>1. Ubisoft<br>2. EA Sports<br>3. EA Canada | <img src="https://github.com/user-attachments/assets/b622d811-f795-46ec-9b50-9985ce5c56c6" alt="top_3_developers" width="300"/> |
+
+---
+
 ## 📁 File Structure
 ```ca1_DATA_VISUALISATION/
 │
